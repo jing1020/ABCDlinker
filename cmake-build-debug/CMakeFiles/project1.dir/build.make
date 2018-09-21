@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jingwang/CLionProjects/project1
+CMAKE_SOURCE_DIR = /Users/fengjiang/Documents/jingjing/ABCDlinker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jingwang/CLionProjects/project1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/project1.dir/depend.make
@@ -59,43 +59,43 @@ include CMakeFiles/project1.dir/flags.make
 
 CMakeFiles/project1.dir/main.cpp.o: CMakeFiles/project1.dir/flags.make
 CMakeFiles/project1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project1.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project1.dir/main.cpp.o -c /Users/jingwang/CLionProjects/project1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project1.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project1.dir/main.cpp.o -c /Users/fengjiang/Documents/jingjing/ABCDlinker/main.cpp
 
 CMakeFiles/project1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project1.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jingwang/CLionProjects/project1/main.cpp > CMakeFiles/project1.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fengjiang/Documents/jingjing/ABCDlinker/main.cpp > CMakeFiles/project1.dir/main.cpp.i
 
 CMakeFiles/project1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jingwang/CLionProjects/project1/main.cpp -o CMakeFiles/project1.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fengjiang/Documents/jingjing/ABCDlinker/main.cpp -o CMakeFiles/project1.dir/main.cpp.s
 
-CMakeFiles/project1.dir/readinput.cpp.o: CMakeFiles/project1.dir/flags.make
-CMakeFiles/project1.dir/readinput.cpp.o: ../readinput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project1.dir/readinput.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project1.dir/readinput.cpp.o -c /Users/jingwang/CLionProjects/project1/readinput.cpp
+CMakeFiles/project1.dir/Pass1.cpp.o: CMakeFiles/project1.dir/flags.make
+CMakeFiles/project1.dir/Pass1.cpp.o: ../Pass1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project1.dir/Pass1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project1.dir/Pass1.cpp.o -c /Users/fengjiang/Documents/jingjing/ABCDlinker/Pass1.cpp
 
-CMakeFiles/project1.dir/readinput.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project1.dir/readinput.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jingwang/CLionProjects/project1/readinput.cpp > CMakeFiles/project1.dir/readinput.cpp.i
+CMakeFiles/project1.dir/Pass1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project1.dir/Pass1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fengjiang/Documents/jingjing/ABCDlinker/Pass1.cpp > CMakeFiles/project1.dir/Pass1.cpp.i
 
-CMakeFiles/project1.dir/readinput.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/readinput.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jingwang/CLionProjects/project1/readinput.cpp -o CMakeFiles/project1.dir/readinput.cpp.s
+CMakeFiles/project1.dir/Pass1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/Pass1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fengjiang/Documents/jingjing/ABCDlinker/Pass1.cpp -o CMakeFiles/project1.dir/Pass1.cpp.s
 
 # Object files for target project1
 project1_OBJECTS = \
 "CMakeFiles/project1.dir/main.cpp.o" \
-"CMakeFiles/project1.dir/readinput.cpp.o"
+"CMakeFiles/project1.dir/Pass1.cpp.o"
 
 # External object files for target project1
 project1_EXTERNAL_OBJECTS =
 
 project1: CMakeFiles/project1.dir/main.cpp.o
-project1: CMakeFiles/project1.dir/readinput.cpp.o
+project1: CMakeFiles/project1.dir/Pass1.cpp.o
 project1: CMakeFiles/project1.dir/build.make
 project1: CMakeFiles/project1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable project1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable project1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/project1.dir/clean:
 .PHONY : CMakeFiles/project1.dir/clean
 
 CMakeFiles/project1.dir/depend:
-	cd /Users/jingwang/CLionProjects/project1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jingwang/CLionProjects/project1 /Users/jingwang/CLionProjects/project1 /Users/jingwang/CLionProjects/project1/cmake-build-debug /Users/jingwang/CLionProjects/project1/cmake-build-debug /Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles/project1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/fengjiang/Documents/jingjing/ABCDlinker /Users/fengjiang/Documents/jingjing/ABCDlinker /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles/project1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/project1.dir/depend
 

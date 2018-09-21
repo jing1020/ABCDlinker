@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jingwang/CLionProjects/project1
+CMAKE_SOURCE_DIR = /Users/fengjiang/Documents/jingjing/ABCDlinker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jingwang/CLionProjects/project1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles /Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ project1/fast:
 	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/build
 .PHONY : project1/fast
 
+Pass1.o: Pass1.cpp.o
+
+.PHONY : Pass1.o
+
+# target to build an object file
+Pass1.cpp.o:
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Pass1.cpp.o
+.PHONY : Pass1.cpp.o
+
+Pass1.i: Pass1.cpp.i
+
+.PHONY : Pass1.i
+
+# target to preprocess a source file
+Pass1.cpp.i:
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Pass1.cpp.i
+.PHONY : Pass1.cpp.i
+
+Pass1.s: Pass1.cpp.s
+
+.PHONY : Pass1.s
+
+# target to generate assembly for a file
+Pass1.cpp.s:
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Pass1.cpp.s
+.PHONY : Pass1.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,33 +177,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-readinput.o: readinput.cpp.o
-
-.PHONY : readinput.o
-
-# target to build an object file
-readinput.cpp.o:
-	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/readinput.cpp.o
-.PHONY : readinput.cpp.o
-
-readinput.i: readinput.cpp.i
-
-.PHONY : readinput.i
-
-# target to preprocess a source file
-readinput.cpp.i:
-	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/readinput.cpp.i
-.PHONY : readinput.cpp.i
-
-readinput.s: readinput.cpp.s
-
-.PHONY : readinput.s
-
-# target to generate assembly for a file
-readinput.cpp.s:
-	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/readinput.cpp.s
-.PHONY : readinput.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project1"
+	@echo "... Pass1.o"
+	@echo "... Pass1.i"
+	@echo "... Pass1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... readinput.o"
-	@echo "... readinput.i"
-	@echo "... readinput.s"
 .PHONY : help
 
 

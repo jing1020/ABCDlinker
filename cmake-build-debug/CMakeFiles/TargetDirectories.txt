@@ -1,3 +1,3 @@
-/Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jingwang/CLionProjects/project1/cmake-build-debug/CMakeFiles/project1.dir
+/Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles/project1.dir
