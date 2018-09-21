@@ -123,33 +123,6 @@ project1/fast:
 	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/build
 .PHONY : project1/fast
 
-Pass1.o: Pass1.cpp.o
-
-.PHONY : Pass1.o
-
-# target to build an object file
-Pass1.cpp.o:
-	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Pass1.cpp.o
-.PHONY : Pass1.cpp.o
-
-Pass1.i: Pass1.cpp.i
-
-.PHONY : Pass1.i
-
-# target to preprocess a source file
-Pass1.cpp.i:
-	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Pass1.cpp.i
-.PHONY : Pass1.cpp.i
-
-Pass1.s: Pass1.cpp.s
-
-.PHONY : Pass1.s
-
-# target to generate assembly for a file
-Pass1.cpp.s:
-	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/Pass1.cpp.s
-.PHONY : Pass1.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project1"
-	@echo "... Pass1.o"
-	@echo "... Pass1.i"
-	@echo "... Pass1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

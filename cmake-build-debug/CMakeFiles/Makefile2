@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-de
 CMakeFiles/project1.dir/all:
 	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/depend
 	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target project1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target project1"
 .PHONY : CMakeFiles/project1.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/project1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/project1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/project1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fengjiang/Documents/jingjing/ABCDlinker/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/project1.dir/rule

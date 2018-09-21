@@ -82,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/fengjiang/Documents/jingjing/ABCDlinker/Pass1.cpp">
-			<Option target="project1"/>
-		</Unit>
 		<Unit filename="/Users/fengjiang/Documents/jingjing/ABCDlinker/main.cpp">
 			<Option target="project1"/>
 		</Unit>
